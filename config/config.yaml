@@ -1,0 +1,21 @@
+timezone: Europe/Moscow
+reminders:
+  - id: morning
+    time: "08:00"
+    medications:
+      - {name: "Адаптол", dose: "500 мг", amount: "1 таблетка"}
+      - {name: "Пикамилон", dose: "50 мг", amount: "1 таблетка"}
+  - id: afternoon
+    time: "14:00"
+    medications:
+      - {name: "Пикамилон", dose: "50 мг", amount: "1 таблетка"}
+  - id: evening
+    time: "20:00"
+    medications:
+      - {name: "Адаптол", dose: "500 мг", amount: "1 таблетка"}
+      - {name: "Пикамилон", dose: "50 мг", amount: "1 таблетка"}
+  - id: bedtime
+    time: "01:30"
+    medications:
+      - {name: "Вальдоксан", dose: "25 мг", amount: "1 таблетка"}
+      - {name: "Тералиджен", dose: "5 мг", amount: "1/2 таблетки"}
